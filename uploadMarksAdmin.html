@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updating Student Detail</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body style="background-color: #edede9; gap: 3vw ;">
+  <h1 class="heading">Uploading Student Details</h1>
+  <div id="mainBox">
+    <div id="infoBox2">
+      <ul id="infoBoxUl2">
+        <li><div class="fname">First Name:</div><div class="afname"></div></li>
+        <li><div class="lname">Last Name:</div><div class="alname"></div></li>
+        <li><div class="email">Email Address:</div><div class="aemail"></div></li>
+        <li><div class="password">Password:</div><div class="apassword"></div></li>
+        <li><div class="cnic">CNIC:</div><div class="acnic"></div></li>
+      </ul>
+    </div>
+    <div id="infoBox2">
+      <ul id="infoBoxUl2">
+        <li><div class="fname">Course:</div><div class="afname2"><input type="text" id="courseInput" placeholder="Enter Student Course" required></div></li>
+        <li><div class="lname">Obtained Marks:</div><div class="alname2"><input type="text" id="obtainedMarksInput" placeholder="Enter Obtained Marks" required></div></li>
+        <li><div class="email">Total Marks:</div><div class="aemail2"><input type="text" id="totalMarksInput" placeholder="Enter Total Marks" required></div></li>
+        <li><div class="password">Student Id:</div><div class="apassword2"><input type="text" id="studentIdInput" placeholder="Enter Student ID" required></div></li>
+        <li><div class="cnic">Grade:</div><div class="acnic2"><input type="text" id="gradeInput" placeholder="Enter Student Grade" required></div></li>
+        <li><button id="uploadBtn">Upload Student Details</button></li>
+      </ul>
+    </div>
+  </div>
+  <script type="module" src="uploadMarksAdmin.js"></script>
+</body>
+</html>

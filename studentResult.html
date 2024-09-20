@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Details</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body style="background-color: #edede9; gap: 3vw;">
+  <h1 class="heading">Student Result</h1>
+  <div id="mainBox">
+    <div id="infoBox2">
+      <ul id="infoBoxUl2">
+        <li>
+          <div class="fname">Total Marks:</div>
+          <div class="afname2"><input type="text" id="totalMarks" placeholder="Total Marks" required></div>
+        </li>
+        <li>
+          <div class="lname">Marks:</div>
+          <div class="alname2"><input type="text" id="obtainedMarks" placeholder="Obtained Marks" required></div>
+        </li>
+        <li>
+          <div class="email">CNIC:</div>
+          <div class="aemail2"><input type="text" id="cnic" placeholder="CNIC" required></div>
+        </li>
+        <li>
+          <div class="resultBtn" id="calculateBtn">Click to See Result!</div>
+          <div class="result2" ><input type="text" id="actualResult" placeholder="Result Percentage" readonly></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script type="module" src="studentResult.js"></script>
+</body>
+</html>

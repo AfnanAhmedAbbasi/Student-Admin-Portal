@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+    height: 11vh;
+    gap: 35vw;
+    align-items: center;
+    background-color: #fbfbfb;
+    box-shadow: 2px 9px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.logo {
+    background-image: url('image/logo.png');
+    height: 10vh;
+    width: 100px;
+    background-size: cover;
+}
+
+.picture {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    background-image: url('data:image/png;base64,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');
+    background-size: cover;
+}
+
+.logout {
+    padding: 8px 15px 8px 15px;
+    background-color: #3b71ca;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    margin-left: 110px;
+    margin-top: 100px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.hi {
+    font-size: 36px;
+}
+
+.welcome {
+    font-size: 14px;
+}
+
+#infon {
+    background-color: white;
+    width: 29vw;
+    display: flex;
+    flex-direction: column;
+    height: 36vh;
+    gap: 1vw;
+    justify-content: center;
+    border: 2px solid lightslategray;
+    border-radius: 15px;
+}
+
+#infon:hover {
+    cursor: pointer;
+    background-color: #f5f3f3;
+}
+
+.course {
+    font-size: 23px;
+}
+
+.course,
+.student-info,
+.location,
+.enrolled {
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+
+.student-info,
+.location {
+    display: flex;
+    gap: 3vw;
+}
+
+.student-info {
+    display: flex;
+    gap: 5.7vw;
+}
+
+.enrolled {
+    font-size: 11px;
+    padding: 4.2px 7.8px;
+    border-radius: 9px;
+    background-color: #def1f7;
+    color: #1c657d;
+    width: 4vw;
+}

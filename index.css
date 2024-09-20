@@ -1,0 +1,266 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100%;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    height:60vh;
+    width:45vw;
+    justify-content: center;
+    align-items: center;
+    gap:2vw;
+    border-radius: 12px;
+}
+
+#buttons{
+   display: flex;
+   flex-direction: column;
+   gap: 1.5vw;
+}
+
+button{
+    height: 7vh;
+    width:25vw;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    border: 1px solid  black;
+    cursor: pointer;
+}
+
+#authBox{
+    display: flex;
+}
+
+#addStudent{
+    display: flex;
+    flex-direction: column;
+}
+#body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px; 
+    gap: 2vw;
+}
+
+
+#tablecontainer {
+    width: 90%;
+    background-color: #fff2e5;
+    border-radius: 12px;
+}
+
+table {
+    width: 80%; 
+    margin: auto;
+}
+
+
+table th, table td {
+    vertical-align: middle;
+    text-align: center; 
+}
+
+tr {
+    height: 9vh;
+}
+.uploadMarksBtn,.qwerty{
+    width: 11vw;
+    border: none;
+    height: 6.6vh;
+    border-radius: 10px;
+    background-color: #d6ccc2;
+    color:black;
+
+}
+tbody, thead {
+    text-align: center; 
+}
+
+#logoutBtn{
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    width: 12vw;
+    border-radius: 12px;
+    background-color: #d6ccc2;
+    cursor: pointer;
+}
+
+#addStudentBtn2{
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    width: 12vw;
+    border-radius: 12px;
+    background-color: #d6ccc2;
+    cursor: pointer;
+}
+
+.heading{
+    position: absolute;
+    top: 1%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+
+}
+
+#infoBox{
+    margin-top: 40px;
+    height: 85vh;
+    background-color: #e3d5ca;
+    width:55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+#infoBoxUl{
+    height: 60vh;
+    width:48vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+#infoBoxUl li{
+    display: flex;
+    list-style-type: none;
+    background-color: #edede9;
+    height: 6vh;
+    width:48vw;
+    justify-content: center;
+    align-items: center;
+    gap:7vw;
+    border-radius: 12px;;
+}
+
+
+
+.fname,.lname,.password,.email,.cnic,.obtainedmarks,.totalmarks,.studentid,.course,.grade{
+    font-size: 20px;
+    width: 16vw;
+    height:6vh;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+.afname,.alname,.apassword,.aemail,.acnic,.aobtainedmarks,.amarks,.astudentid,.acourse,.atotalmarks,.agrade{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 26vw;
+    height:10vh;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.aemail{
+    overflow-x: hidden;
+}
+
+
+
+
+
+#infoBox2{
+    height:80vh;
+    background-color: #e3d5ca;
+    width:45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+#infoBoxUl2 {
+    width:40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3vw;
+    margin-right: 30px;
+}
+
+#infoBoxUl2 li{
+    display: flex;
+    list-style-type: none;
+    background-color: #edede9;
+    height: 10vh;
+    width:40vw;
+    justify-content: center;
+    align-items: center;
+    gap:7vw;
+    border-radius: 12px;
+
+}
+
+.afname2,.alname2,.apassword2,.aemail2,.acnic2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 30vw;
+    height:7vh;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#infoBoxUl2 li input{
+    height:6vh;
+    width: 19vw;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background-color: #edede9;
+    margin-top: -15px;
+    padding-left: 5px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#mainBox{
+    display: flex;
+    gap: 3vw;
+    margin-top: 50px;
+}
+
+.resultBtn{
+    background-color:#dcbea8;
+    margin-left: 10px;
+    width: 11vw;
+    height: 7.5vh;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:  15px;
+    cursor: pointer;
+    border: 2px solid #d9a47e;
+}
